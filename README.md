@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E293B,100:0F172A&height=210&section=header&text=Samuel%20David%20Gélvez%20Rodríguez&fontSize=36&fontAlignY=38&animation=fadeIn&desc=Junior%20Backend%20Developer%20%7C%20Software%20Architecture&descSize=16&descAlignY=58&stroke=38BDF8&strokeWidth=1" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1E3A5F,100:0284C7&height=220&section=header&text=Samuel%20David%20Gélvez%20Rodríguez&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=Junior%20Backend%20Developer%20%7C%20Software%20Architecture&descColor=FFFFFF&descSize=17&descAlignY=58" width="100%" alt="Header Banner" />
 </p>
 
 <p align="center">
@@ -17,25 +17,14 @@
 
 ### 👨‍💻 Sobre mí
 
-<table>
-  <tr>
-    <td width="65%" valign="top">
-      <p>
-        Desarrollador Backend Junior graduado de <b>Campuslands</b>. Especializado en el diseño e implementación de sistemas empresariales desacoplados, microservicios y APIs RESTful de alto rendimiento.
-      </p>
-      <ul>
-        <li>☕ <b>Ecosistema Java:</b> Desarrollo backend robusto con <b>Java 21</b>, <b>Spring Boot</b>, <b>Maven</b>, persistencia mediante <b>JDBC</b> y <b>Hibernate/JPA</b>, y programación concurrente multihilo.</li>
-        <li>🐍 <b>Ecosistema Python:</b> Construcción de APIs de alta velocidad con <b>FastAPI</b>, validación de esquemas con <b>Pydantic v2</b>, integración de modelos de lenguaje (LLMs) con <b>LangChain</b> y pruebas con <b>Pytest</b>.</li>
-        <li>🏛️ <b>Arquitectura & Buenas Prácticas:</b> Aplicación rigurosa de principios <b>SOLID</b>, <b>Arquitectura Hexagonal (Puertos y Adaptadores)</b>, <b>Domain-Driven Design (DDD)</b> y patrones de diseño (Observer, Strategy, Factory, Singleton).</li>
-        <li>🗄️ <b>Persistencia & DevOps:</b> Modelado relacional avanzado en <b>PostgreSQL 16</b> y <b>MySQL</b>, orquestación contenerizada con <b>Docker</b> y despliegues en servidores <b>Linux</b>.</li>
-        <li>🤝 <b>Metodología Ágil:</b> Trabajo colaborativo estructurado bajo marco <b>Scrum</b>, <b>Git Flow</b> y <b>Conventional Commits</b>.</li>
-      </ul>
-    </td>
-    <td width="35%" align="center" valign="middle">
-      <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Coding Animation" style="border-radius: 8px;" />
-    </td>
-  </tr>
-</table>
+Desarrollador Backend Junior graduado de **Campuslands**. Especializado en el diseño e implementación de sistemas empresariales desacoplados, microservicios y APIs RESTful de alto rendimiento.
+
+- ☕ **Ecosistema Java:** Construcción de aplicaciones robustas y escalables con **Java 21**, **Spring Boot**, **Maven**, persistencia mediante **JDBC** y **Hibernate/JPA**, y programación concurrente multihilo.
+- 🐍 **Ecosistema Python:** Desarrollo de APIs de alta velocidad con **FastAPI**, validación estricta de esquemas con **Pydantic v2**, integración de pipelines de IA con **LangChain** y pruebas automatizadas con **Pytest**.
+- 🏛️ **Arquitectura & Calidad de Código:** Aplicación rigurosa de principios **SOLID**, **Arquitectura Hexagonal (Puertos y Adaptadores)**, **Domain-Driven Design (DDD)** y patrones de diseño (*Observer, Strategy, Factory, Singleton*).
+- 🗄️ **Bases de Datos & Persistencia:** Modelado relacional avanzado en **PostgreSQL 16** y **MySQL**, consultas complejas y persistencia estructurada en JSON.
+- 🐳 **DevOps & Entornos:** Orquestación de servicios contenerizados con **Docker / Docker Compose** y despliegues en servidores **Linux**.
+- 🤝 **Metodologías Ágiles:** Trabajo colaborativo eficiente bajo marco **Scrum**, control de versiones con **Git Flow** y **Conventional Commits**.
 
 ---
 
@@ -83,19 +72,19 @@
 
 ---
 
-### 📊 Actividad & Métricas de GitHub
+### 📊 Actividad & Métricas de Ingeniería
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Samuelgelvez20&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Samuel's GitHub Stats" />
+  <img src="./assets/stats.svg" alt="Estadísticas Backend" />
   <img src="https://streak-stats.demolab.com/?user=Samuelgelvez20&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Samuelgelvez20&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="./assets/languages.svg" alt="Distribución de Tecnologías" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E293B,100:0F172A&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1E3A5F,100:0284C7&height=90&section=footer" width="100%" alt="Footer Banner" />
 </p>
