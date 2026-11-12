@@ -1,8 +1,8 @@
 # <h1 align="center">Hola, soy Samuel David Gélvez Rodríguez 👋</h1>
 
 <p align="center">
-  <b>Software Developer | Full-Stack & Software Architecture</b><br>
-  Apasionado por el desarrollo de software robusto, arquitecturas limpias y soluciones escalables.
+  <b>Backend Developer | Software Architecture & Distributed Systems</b><br>
+  Especializado en arquitecturas limpias, APIs RESTful de alto rendimiento y persistencia relacional con Java y Python.
 </p>
 
 <p align="center">
@@ -15,10 +15,12 @@
 
 ### 👨‍💻 Sobre mí
 
-- 🎓 **Desarrollador de Software en Campuslands**, enfocado en la construcción de sistemas empresariales con altos estándares de calidad, principios **SOLID** y arquitecturas desacopladas (**Hexagonal y Vertical Slice**).
-- 💡 Experiencia diseñando e implementando soluciones backend con **Java (Spring Boot)** y **Python (FastAPI)**, así como aplicaciones frontend modernas con **React** y **JavaScript**.
-- ⚙️ Fuertes bases en modelado relacional (**PostgreSQL, MySQL**), integración de inteligencia artificial y orquestación con **Docker**.
-- 🤝 Convencido del poder de las metodologías ágiles (**Scrum**) y las buenas prácticas de versionamiento con **Git Flow** y **Conventional Commits**.
+- 🎓 **Desarrollador Backend Junior graduado de Campuslands**, con sólida formación en ingeniería de software, construcción de microservicios y APIs RESTful desacopladas.
+- ☕ **Ecosistema Java:** Construcción de sistemas empresariales con **Java 21**, **Spring Boot**, **Maven**, persistencia con **JDBC** y **Hibernate/JPA**, y programación concurrente multihilo.
+- 🐍 **Ecosistema Python:** Desarrollo de APIs de alta velocidad con **FastAPI**, validación estricta de esquemas con **Pydantic v2**, integración de pipelines de IA con **LangChain** y pruebas automatizadas con **Pytest**.
+- 🏛️ **Arquitectura y Calidad:** Aplicación rigurosa de principios **SOLID**, patrones de diseño (**Arquitectura Hexagonal / Puertos y Adaptadores**, **Domain-Driven Design - DDD**, **Vertical Slice**) y código limpio.
+- 🗄️ **Bases de Datos & DevOps:** Modelado relacional avanzado en **PostgreSQL** y **MySQL**, orquestación de servicios contenerizados con **Docker / Docker Compose** y entornos de desarrollo en **Linux**.
+- 🤝 **Metodologías Ágiles:** Trabajo colaborativo eficiente bajo marco **Scrum**, control de versiones con **Git Flow** y **Conventional Commits**.
 
 ---
 
@@ -26,46 +28,43 @@
 
 <p align="center">
   <!-- Lenguajes -->
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash_Linux-FCC624?style=for-the-badge&logo=gnubash&logoColor=black" />
 </p>
 
 <p align="center">
   <!-- Frameworks & Backend -->
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL_16-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pydantic_v2-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
 </p>
 
 <p align="center">
-  <!-- Herramientas & DevOps -->
+  <!-- Arquitectura, DevOps & Herramientas -->
+  <img src="https://img.shields.io/badge/Hexagonal_Architecture-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SOLID_Principles-darkgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/n8n-FF6584?style=for-the-badge&logo=n8n&logoColor=white" />
   <img src="https://img.shields.io/badge/Scrum-007ACC?style=for-the-badge&logo=scrumalliance&logoColor=white" />
 </p>
 
 ---
 
-### 🚀 Proyectos Destacados (Campuslands)
+### 🚀 Proyectos Backend Destacados (Campuslands)
 
-| Proyecto | Descripción | Stack Tecnológico | Enlace |
+| Proyecto | Descripción de Arquitectura & Backend | Stack Tecnológico | Enlace |
 | :--- | :--- | :--- | :---: |
-| **Plataforma de Renta de Herramientas** | Sistema integral de alquiler de equipos con control de inventario, facturación por daños y Arquitectura Hexagonal. | Java, Spring Boot, PostgreSQL, SOLID, Maven | [Ver Repo](https://github.com/Samuelgelvez20/Plataforma-de-Renta-de-Herramientas-de-Construccion) |
-| **SICA — Control de Acceso** | Sistema de control perimetral y acceso empresarial con vertical slices y seguridad por roles. | Java, Hexagonal Architecture, PostgreSQL | [Ver Repo](https://github.com/Samuelgelvez20/SICA-ZonaAcme) |
-| **CVLens-AI** | Plataforma con Inteligencia Artificial para análisis semántico y evaluación ATS de currículums. | Python, Google Gemini, Streamlit, Docker | [Ver Repo](https://github.com/Samuelgelvez20/CVLens-AI) |
-| **Tribunal Bimmer** | Plataforma temática automotriz y análisis comparativo con backend REST y frontend React. | Python, FastAPI, React, Pytest, SOLID | [Ver Repo](https://github.com/Samuelgelvez20/Tribunal-Bimmer) |
-| **F1 Simulator** | Simulador de carreras con hilos concurrentes, clima dinámico y persistencia de eventos. | Java, Multithreading, PostgreSQL | [Ver Repo](https://github.com/Samuelgelvez20/f1-simulator) |
-| **Portafolio Web Profesional** | Portafolio interactivo desplegado en GitHub Pages con diseño responsivo y optimización de rendimiento. | JavaScript, HTML5, CSS3, GitHub Pages | [Ver Demo](https://Samuelgelvez20.github.io/PORTAFOLIO/) |
+| **Plataforma de Renta de Maquinaria** | Sistema empresarial con Arquitectura Hexagonal y DDD. Control transaccional de disponibilidad, cálculo de depósitos y liquidación de averías. | Java 21, Spring Boot, PostgreSQL, Docker, Maven, SOLID | [Ver Repo](https://github.com/Samuelgelvez20/Plataforma-de-Renta-de-Herramientas-de-Construccion) |
+| **SICA — Control de Acceso Perimetral** | Sistema modular de seguridad perimetral para parque empresarial con Vertical Slices, JDBC puro, persistencia en PostgreSQL y patrón Observer. | Java 21, Hexagonal Architecture, PostgreSQL, Docker, JDBC | [Ver Repo](https://github.com/Samuelgelvez20/SICA-ZonaAcme) |
+| **Tribunal Bimmer — API Analítica** | API RESTful en FastAPI con validación estricta en tiempo de ejecución, orquestación de modelos LLM con LangChain y pruebas Pytest. | Python 3.11, FastAPI, Pydantic, LangChain, Pytest, Docker | [Ver Repo](https://github.com/Samuelgelvez20/Tribunal-Bimmer) |
+| **F1 Simulator — Motor Concurrente** | Simulador de clasificación con procesamiento concurrente en paralelo (un hilo por piloto), motor de telemetría y persistencia relacional. | Java, Multithreading (ExecutorService), PostgreSQL, Maven | [Ver Repo](https://github.com/Samuelgelvez20/f1-simulator) |
+| **CVLens-AI — Motor de Evaluación** | Plataforma de evaluación semántica y compatibilidad ATS de documentos PDF con LLMs, Pydantic y PostgreSQL en Docker. | Python, LangChain, Google Gemini, Docker, PostgreSQL | [Ver Repo](https://github.com/Samuelgelvez20/CVLens-AI) |
 
 ---
 
@@ -82,8 +81,8 @@
 
 - 🌐 **Portafolio:** [https://Samuelgelvez20.github.io/PORTAFOLIO/](https://Samuelgelvez20.github.io/PORTAFOLIO/)
 - 💻 **GitHub:** [@Samuelgelvez20](https://github.com/Samuelgelvez20)
-- 📍 **Ubicación:** Piedecuesta, Santander, Colombia
+- 📍 **Ubicación:** Piedecuesta / Bucaramanga, Santander, Colombia (Disponible Remoto / Presencial)
 
 <p align="center">
-  <i>"El código limpio no solo funciona: cuenta una historia clara a quien lo lee y escala sin fricciones."</i>
+  <i>"El backend es el motor invisible que sostiene la integridad, el rendimiento y la escalabilidad del software."</i>
 </p>
