@@ -60,7 +60,7 @@ Desarrollador Backend Junior graduado de **Campuslands**. Especializado en el di
 
 ---
 
-### 🚀 Proyectos Backend Destacados (Campuslands)
+### 🚀 Proyectos Destacados 
 
 | Proyecto | Descripción de Arquitectura & Backend | Stack Tecnológico | Enlace |
 | :--- | :--- | :--- | :---: |
