@@ -70,64 +70,92 @@ I regularly work with **Java (Spring Boot)** and **Python (FastAPI)**, applying 
 
 ### Featured Projects
 
-#### 01. Evaluador-Tecnico
-**AI-Assisted Candidate Evaluation & Backend Architecture**
+#### 01. Plataforma de Renta de Maquinaria y Construcción
+**Enterprise Machinery Rental Platform & Decoupled Domain Architecture**
 
-A structured technical evaluation platform designed to assess engineering candidates through automated workflows, code execution sandboxing, and AI-assisted scoring pipelines.
+Enterprise web solution for managing heavy machinery rentals, availability reservation tracking, and dynamic billing workflows. Designed under Hexagonal Architecture (Ports and Adapters) and Domain-Driven Design (DDD) to guarantee complete independence between business logic and database/framework drivers.
 
 ```text
-// SYSTEM ARCHITECTURE SPECIFICATION
-Architecture : Microservices / Modular Backend with Asynchronous Task Queues
-Tech Stack   : Python, FastAPI, PostgreSQL, Redis, Docker, LLM Integrations
-Core Focus   : Strict schema validation, background job processing, reproducible candidate metrics
+// HEXAGONAL ARCHITECTURE SPECIFICATION
+Architecture : Hexagonal Architecture (Ports & Adapters) with DDD Principles
+Tech Stack   : Java 21, Spring Boot, PostgreSQL, Docker, Maven, SOLID
+Core Focus   : Total core decoupling, transactional availability tracking, dynamic rate calculation
 ```
 
 <p align="center">
-  <img src="assets/projects/evaluador-tecnico.png" alt="Evaluador-Tecnico Architecture Preview" width="90%" />
+  <img src="assets/projects/rentaherramientas.png" alt="Plataforma de Renta Architecture" width="90%" />
 </p>
 
-- **Repository:** [Evaluador-Tecnico on GitHub](https://github.com/Cristixn04/Evaluador-Tecnico)
-- **Associated Engine:** [CVLens-AI Evaluation Engine](https://github.com/Samuelgelvez20/CVLens-AI)
+- **Repository:** [Plataforma-de-Renta-de-Herramientas-de-Construccion on GitHub](https://github.com/Samuelgelvez20/Plataforma-de-Renta-de-Herramientas-de-Construccion)
 
 <br />
 
-#### 02. MindConnect DDD
-**Domain-Driven Design Enterprise Platform**
-
-An enterprise software architecture project centered on Domain-Driven Design (DDD) and Hexagonal Architecture principles. It enforces strict boundary separation between ubiquitous domain language, application use cases, and infrastructure adapters.
-
-```text
-// HEXAGONAL LAYER SPECIFICATION
-Architecture : Domain-Driven Design (DDD), Hexagonal Architecture (Ports & Adapters)
-Tech Stack   : Java 21, Spring Boot, PostgreSQL, Docker, Maven, Spring Security
-Core Focus   : Entity aggregates, value objects, transactional domain events, infrastructure decoupling
-```
-
-<p align="center">
-  <img src="assets/projects/mindconnect-ddd.jpg" alt="MindConnect DDD Architecture Diagram" width="90%" />
-</p>
-
-- **Repository:** [mindconnect-ddd](https://github.com/Samuelgelvez20/mindconnect-ddd) *(Verified architectural codebase)*
-
-<br />
-
-#### 03. Tribunal Bimmer
+#### 02. Tribunal Bimmer
 **Automotive Sentiment Analysis & Runtime Intelligence**
 
-An analytical platform and RESTful service designed to process, classify, and evaluate vehicle perception data for BMW automotive models with high determinism.
+High-performance RESTful API and analytical platform designed to classify, process, and evaluate BMW automotive community feedback. Features strict data contracts validated at runtime with Pydantic v2, and real-time semantic analysis pipelines powered by LangChain and LLM models.
 
 ```text
-// RUNTIME ARCHITECTURE SPECIFICATION
+// RUNTIME INTELLIGENCE SPECIFICATION
 Architecture : Decoupled API Service with Deterministic Semantic Inference
-Tech Stack   : Python 3.11, FastAPI, LangChain (LCEL), Pydantic v2, Pytest, React, Tailwind CSS
-Core Focus   : Few-shot prompt engineering, prompt injection defense, automated test suites
+Tech Stack   : Python 3.11, FastAPI, LangChain (LCEL), Pydantic v2, Pytest, Docker, SOLID
+Core Focus   : Strict runtime data contracts, few-shot prompt engineering, prompt injection defense
 ```
 
 <p align="center">
-  <img src="assets/projects/tribunal-bimmer.png" alt="Tribunal Bimmer Application Interface" width="90%" />
+  <img src="assets/projects/tribunalbimmer.png" alt="Tribunal Bimmer Analytical Interface" width="90%" />
 </p>
 
 - **Repository:** [Tribunal-Bimmer on GitHub](https://github.com/Samuelgelvez20/Tribunal-Bimmer)
+
+<br />
+
+#### 03. SICA — Sistema Integrado de Control de Acceso (Zona Acme)
+**Enterprise Perimeter Security & Access Management System**
+
+Enterprise perimeter security application designed to digitize physical access control across a corporate complex with 30+ tenant companies. Built with a decoupled Java 21 architecture organized into Vertical Slices, integrating the Observer pattern for real-time security alerts and optimized JDBC transactions on Dockerized PostgreSQL.
+
+```text
+// ACCESS CONTROL SPECIFICATION
+Architecture : Vertical Slice Architecture with Hexagonal Ports & Adapters
+Tech Stack   : Java 21, PostgreSQL, Docker, JDBC, Maven
+Core Focus   : Multi-tenant perimeter access (30+ corporate tenants), Observer pattern, audit logs
+```
+
+<p align="center">
+  <img src="assets/projects/sica-zonaacme.png" alt="SICA Control de Acceso System" width="90%" />
+</p>
+
+- **Repository:** [SICA-ZonaAcme on GitHub](https://github.com/Samuelgelvez20/SICA-ZonaAcme)
+
+<br />
+
+#### 04. CVLens-AI
+**Resume Intelligence & ATS Evaluation Engine with LLMs**
+
+Intelligent backend engine for concurrent parsing and ATS evaluation of PDF resumes using LangChain and Google Gemini. Enforces structured output schemas with Pydantic v2 under a weighted algorithmic scoring model (experience 40%, skills 35%, education 15%, coherence 10%) with rankings persisted in PostgreSQL and containerized deployment.
+
+```text
+// AI EVALUATION ENGINE SPECIFICATION
+Architecture : Asynchronous Document Intelligence & Scoring Engine
+Tech Stack   : Python, FastAPI, LangChain, Google Gemini, Pydantic v2, PostgreSQL, Docker
+Core Focus   : Concurrent PDF parsing, weighted algorithmic scoring, structured LLM validation
+```
+
+<p align="center">
+  <img src="assets/projects/cvlens-ai.png" alt="CVLens-AI Evaluation Engine" width="90%" />
+</p>
+
+- **Repository:** [CVLens-AI on GitHub](https://github.com/Samuelgelvez20/CVLens-AI)
+
+---
+
+### Additional Production Repositories
+
+| Repository | Focus & Architecture | Stack | Link |
+| :--- | :--- | :--- | :---: |
+| **Campuslands OpsCenter** | High-contention transactional API for room booking and automated Gemini AI triaging engine with space lockouts. | Python 3.12, FastAPI, PostgreSQL, SQLAlchemy, Docker | [View Repo](https://github.com/Samuelgelvez20/Campuslands-OpsCenter-) |
+| **F1 Simulator** | Parallel multithreaded simulation engine (dedicated thread per car via ExecutorService) with weather penalties and PostgreSQL persistence. | Java 21, Multithreading, ExecutorService, PostgreSQL, JDBC | [View Repo](https://github.com/Samuelgelvez20/f1-simulator) |
 
 ---
 
