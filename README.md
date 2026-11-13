@@ -40,24 +40,33 @@ I regularly work with **Java (Spring Boot)** and **Python (FastAPI)**, applying 
 
 ### Tech Stack
 
-#### Languages
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,python,ts,js,postgres&theme=dark" alt="Languages: Java 21, Python, TypeScript, JavaScript, SQL" />
+<h4 align="center">Backend, Concurrencia y Lenguajes</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JAVA-21_LTS-0284c7?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=05070d" alt="Java 21" />
+  <img src="https://img.shields.io/badge/SPRING_BOOT-3.X-0ea5e9?style=for-the-badge&logo=springboot&logoColor=white&labelColor=05070d" alt="Spring Boot 3" />
+  <img src="https://img.shields.io/badge/PYTHON-3.11+-0284c7?style=for-the-badge&logo=python&logoColor=white&labelColor=05070d" alt="Python 3.11" />
+  <img src="https://img.shields.io/badge/FASTAPI-ASYNC_APIS-0ea5e9?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=05070d" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/TYPESCRIPT-5.X-0369a1?style=for-the-badge&logo=typescript&logoColor=white&labelColor=05070d" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-ES6+-1e3a5f?style=for-the-badge&logo=javascript&logoColor=white&labelColor=05070d" alt="JavaScript" />
 </p>
 
-#### Backend Frameworks & Runtimes
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=spring,fastapi,maven&theme=dark" alt="Backend: Spring Boot, FastAPI, Maven, REST APIs" />
+<h4 align="center">Bases de Datos & Persistencia</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/POSTGRESQL-16_RELATIONAL-0284c7?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=05070d" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MYSQL-DATABASE-0ea5e9?style=for-the-badge&logo=mysql&logoColor=white&labelColor=05070d" alt="MySQL" />
+  <img src="https://img.shields.io/badge/REDIS-CACHING-0369a1?style=for-the-badge&logo=redis&logoColor=white&labelColor=05070d" alt="Redis" />
+  <img src="https://img.shields.io/badge/JDBC-PERSISTENCE-1e3a5f?style=for-the-badge&logo=java&logoColor=white&labelColor=05070d" alt="JDBC" />
 </p>
 
-#### Databases & Infrastructure
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,redis,docker,linux,bash&theme=dark" alt="Databases & Infrastructure: PostgreSQL, Redis, Docker, Linux, Bash" />
-</p>
+<h4 align="center">Arquitectura, Infraestructura & DevOps</h4>
 
-#### Client-Side & Ecosystem
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" alt="Frontend: React, Next.js, Tailwind CSS, HTML5, CSS3" />
+<p align="center">
+  <img src="https://img.shields.io/badge/ARCHITECTURE-HEXAGONAL_%26_DDD-0284c7?style=for-the-badge&logo=diagram-next&logoColor=white&labelColor=05070d" alt="Architecture Hexagonal" />
+  <img src="https://img.shields.io/badge/DOCKER-CONTAINERS-0ea5e9?style=for-the-badge&logo=docker&logoColor=white&labelColor=05070d" alt="Docker" />
+  <img src="https://img.shields.io/badge/LINUX-SERVERS_%26_CLI-0369a1?style=for-the-badge&logo=linux&logoColor=white&labelColor=05070d" alt="Linux" />
+  <img src="https://img.shields.io/badge/GIT_FLOW-CONVENTIONAL_COMMITS-1e3a5f?style=for-the-badge&logo=git&logoColor=white&labelColor=05070d" alt="GitFlow" />
 </p>
 
 ---
