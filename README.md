@@ -1,103 +1,146 @@
+<div align="center">
+  <img src="assets/hero/hero-banner.svg" alt="Samuel David Gelvez Rodriguez - Software Engineer" width="100%" />
+</div>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0F172A,50:1E3A5F,100:0284C7&height=240&section=header&text=Samuel%20David%20G%C3%A9lvez%20Rodr%C3%ADguez&fontSize=40&fontColor=FFFFFF&fontAlignY=40&animation=fadeIn&desc=Backend%20Developer%20%7C%20Software%20Architecture&descColor=94A3B8&descSize=18&descAlignY=62" width="100%" alt="Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=1000&color=55B9F5&center=true&vCenter=true&width=750&height=40&lines=Software+Engineer;Backend+Developer;Software+Architecture;Domain-Driven+Design+%26+Reliable+Systems" alt="Typing Animation" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&height=45&lines=Java+21+%7C+Spring+Boot+%7C+Arquitectura+Hexagonal;Python+%7C+FastAPI+%7C+Pydantic+v2+%7C+LangChain;Domain-Driven+Design+y+principios+SOLID;PostgreSQL+%7C+Concurrencia+%7C+Docker+sobre+Linux" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <a href="https://Samuelgelvez20.github.io/PORTAFOLIO/"><img src="https://img.shields.io/badge/Portafolio-Visitar-0284C7?style=flat-square&logo=googlechrome&logoColor=white" alt="Portafolio" /></a>
-  <a href="https://linkedin.com/in/samuelgelvezdev"><img src="https://img.shields.io/badge/LinkedIn-Samuel_G%C3%A9lvez-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:samueldavidgelvezr@gmail.com"><img src="https://img.shields.io/badge/Email-Contactar-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Ubicaci%C3%B3n-Colombia-0F172A?style=flat-square" alt="Colombia" />
-  <img src="https://img.shields.io/badge/Estado-Disponible_para_oportunidades-10B981?style=flat-square" alt="Disponible" />
-</p>
-
----
-
-### Perfil
-
-Desarrollador Backend Junior graduado de Campuslands. Me enfoco en el diseño e implementación de sistemas empresariales desacoplados, microservicios y APIs RESTful de alto rendimiento, con especial atención a la arquitectura y la calidad del código.
-
-| Área | Enfoque |
-| :--- | :--- |
-| **Java** | Java 21, Spring Boot, Maven, JDBC, Hibernate/JPA, programación concurrente multihilo |
-| **Python** | FastAPI, Pydantic v2, LangChain, Pytest |
-| **Arquitectura** | Arquitectura Hexagonal (Puertos y Adaptadores), DDD, SOLID, patrones Observer, Strategy, Factory y Singleton |
-| **Datos** | PostgreSQL 16, MySQL, modelado relacional, consultas complejas, persistencia en JSON |
-| **DevOps** | Docker, Docker Compose, despliegue en servidores Linux |
-| **Metodología** | Scrum, Git Flow, Conventional Commits |
-
----
-
-### Stack tecnológico
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,python,fastapi,postgres,mysql,docker,linux,bash,git,github&theme=dark&perline=12" alt="Stack" />
+  <a href="https://github.com/Samuelgelvez20"><img src="https://img.shields.io/badge/GitHub-Samuelgelvez20-0B1220?style=flat-square&logo=github&logoColor=55B9F5&labelColor=0B1220" alt="GitHub Profile" /></a>
+  <a href="https://linkedin.com/in/samuelgelvezdev"><img src="https://img.shields.io/badge/LinkedIn-samuelgelvezdev-0B1220?style=flat-square&logo=linkedin&logoColor=55B9F5&labelColor=0B1220" alt="LinkedIn Profile" /></a>
+  <a href="mailto:samueldavidgelvezr@gmail.com"><img src="https://img.shields.io/badge/Email-samueldavidgelvezr%40gmail.com-0B1220?style=flat-square&logo=gmail&logoColor=55B9F5&labelColor=0B1220" alt="Email Contact" /></a>
+  <a href="https://samuelgelvez20.github.io/PORTAFOLIO/"><img src="https://img.shields.io/badge/Portfolio-Interactive_Showcase-0B1220?style=flat-square&logo=googlechrome&logoColor=55B9F5&labelColor=0B1220" alt="Portfolio Website" /></a>
 </p>
 
 ---
 
-### Enfoque arquitectónico
+### About Me
 
-Mis proyectos empresariales siguen Arquitectura Hexagonal: el dominio no depende de frameworks ni de infraestructura.
+I am a Software Engineer focused on backend development, system architecture, and building reliable, maintainable software systems. My engineering foundation is centered on decoupling business logic from infrastructure, designing robust RESTful APIs, and implementing clean data persistence models.
 
-```mermaid
-flowchart LR
-    A[API REST / CLI] --> B[Puertos de entrada]
-    B --> C{{Dominio y casos de uso}}
-    C --> D[Puertos de salida]
-    D --> E[(PostgreSQL)]
-    D --> F[Servicios externos / LLM]
-    style C fill:#0284C7,stroke:#0F172A,color:#fff
-    style E fill:#1E3A5F,stroke:#0F172A,color:#fff
-    style F fill:#1E3A5F,stroke:#0F172A,color:#fff
+I regularly work with Java (Spring Boot) and Python (FastAPI), applying Domain-Driven Design (DDD), Hexagonal Architecture, and SOLID principles. In addition to core backend services, I design and integrate AI evaluation workflows and containerized environments with Docker, ensuring reproducible execution and measurable software quality.
+
+---
+
+### Engineering Focus
+
+- **Backend Architecture:** Hexagonal Architecture (Ports and Adapters), Domain-Driven Design (DDD), and boundary isolation.
+- **API Engineering:** Contract-first RESTful API design, strict runtime data validation, and asynchronous processing.
+- **Data & Persistence:** Relational schema design with PostgreSQL and MySQL, transactional integrity, and Redis caching.
+- **AI Integration:** Semantic evaluation pipelines, prompt engineering with LCEL, and structured LLM outputs.
+- **Infrastructure & Quality:** Container orchestration with Docker Compose, automated testing suites, and Linux environments.
+
+---
+
+### Tech Stack
+
+#### Languages
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,python,ts,js,postgres&theme=dark" alt="Languages: Java, Python, TypeScript, JavaScript, SQL" />
+</p>
+
+#### Backend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=spring,fastapi,maven&theme=dark" alt="Backend: Spring Boot, FastAPI, Maven, REST APIs" />
+</p>
+
+#### Databases & Infrastructure
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,redis,docker,linux,bash&theme=dark" alt="Databases and Infrastructure: PostgreSQL, Redis, Docker, Linux, Bash" />
+</p>
+
+#### Frontend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" alt="Frontend: React, Next.js, Tailwind CSS, HTML5, CSS3" />
+</p>
+
+---
+
+### Featured Projects
+
+#### 1. Evaluador-Tecnico
+**AI-Assisted Candidate Evaluation & Backend Architecture**
+
+A structured technical evaluation platform designed to assess engineering candidates through automated workflows, code execution sandboxing, and AI-assisted scoring pipelines.
+
+```text
+Architecture : Microservices / Modular Backend with Asynchronous Task Queues
+Tech Stack   : Python, FastAPI, PostgreSQL, Redis, Docker, LLM Integrations
+Core Focus   : Strict schema validation, background job processing, reproducible candidate metrics
 ```
 
+<p align="center">
+  <img src="assets/projects/evaluador-tecnico.png" alt="Evaluador-Tecnico Architecture Preview" width="85%" />
+</p>
+
+- Repository: [Evaluador-Tecnico on GitHub](https://github.com/Cristixn04/Evaluador-Tecnico)
+- Associated Engine: [CVLens-AI Evaluation Engine](https://github.com/Samuelgelvez20/CVLens-AI)
+
+<br />
+
+#### 2. MindConnect DDD
+**Domain-Driven Design Enterprise Platform**
+
+An enterprise software architecture project centered on Domain-Driven Design (DDD) and Hexagonal Architecture principles. It enforces strict boundary separation between ubiquitous domain language, application use cases, and infrastructure adapters.
+
+```text
+Architecture : Domain-Driven Design (DDD), Hexagonal Architecture (Ports & Adapters)
+Tech Stack   : Java 21, Spring Boot, PostgreSQL, Docker, Maven, Spring Security
+Core Focus   : Entity aggregates, value objects, transactional domain events, infrastructure decoupling
+```
+
+<p align="center">
+  <img src="assets/projects/mindconnect-ddd.jpg" alt="MindConnect DDD Architecture Diagram" width="85%" />
+</p>
+
+- Repository: [mindconnect-ddd](https://github.com/Samuelgelvez20/mindconnect-ddd) *(Verified local architectural codebase)*
+
+<br />
+
+#### 3. Tribunal Bimmer
+**Automotive Sentiment Analysis & Runtime Intelligence**
+
+An analytical platform and RESTful service designed to process, classify, and evaluate vehicle perception data for BMW automotive models with high determinism.
+
+```text
+Architecture : Decoupled API Service with Deterministic Semantic Inference
+Tech Stack   : Python 3.11, FastAPI, LangChain (LCEL), Pydantic v2, Pytest, React, Tailwind CSS
+Core Focus   : Few-shot prompt engineering, prompt-injection defense, automated test suites
+```
+
+<p align="center">
+  <img src="assets/projects/tribunal-bimmer.png" alt="Tribunal Bimmer Application Interface" width="85%" />
+</p>
+
+- Repository: [Tribunal-Bimmer on GitHub](https://github.com/Samuelgelvez20/Tribunal-Bimmer)
+
 ---
 
-### Proyectos destacados
-
-| Proyecto | Arquitectura y backend | Stack | Repositorio |
-| :--- | :--- | :--- | :---: |
-| **Plataforma de Renta de Maquinaria** | Sistema empresarial con Arquitectura Hexagonal y DDD. Control transaccional de disponibilidad, cálculo de depósitos y liquidación de averías. | Java 21, Spring Boot, PostgreSQL, Docker, Maven | [Ver repo](https://github.com/Samuelgelvez20/Plataforma-de-Renta-de-Herramientas-de-Construccion) |
-| **SICA, Control de Acceso Perimetral** | Sistema modular de seguridad perimetral con Vertical Slices, JDBC puro, persistencia en PostgreSQL y patrón Observer. | Java 21, Hexagonal, PostgreSQL, Docker, JDBC | [Ver repo](https://github.com/Samuelgelvez20/SICA-ZonaAcme) |
-| **Tribunal Bimmer, API Analítica** | API RESTful con validación estricta en tiempo de ejecución, orquestación de modelos LLM con LangChain y pruebas con Pytest. | Python 3.11, FastAPI, Pydantic, LangChain, Pytest, Docker | [Ver repo](https://github.com/Samuelgelvez20/Tribunal-Bimmer) |
-| **F1 Simulator, Motor Concurrente** | Simulador de clasificación con procesamiento paralelo (un hilo por piloto), motor de telemetría y persistencia relacional. | Java, ExecutorService, PostgreSQL, Maven | [Ver repo](https://github.com/Samuelgelvez20/f1-simulator) |
-| **CVLens-AI, Motor de Evaluación** | Evaluación semántica y compatibilidad ATS de documentos PDF con LLMs, Pydantic y PostgreSQL en Docker. | Python, LangChain, Google Gemini, Docker, PostgreSQL | [Ver repo](https://github.com/Samuelgelvez20/CVLens-AI) |
-
----
-
-### Actividad y métricas
+### GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Samuelgelvez20&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=0284C7&count_private=true" alt="Estadísticas" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Samuelgelvez20&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=38BDF8" alt="Lenguajes" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Samuelgelvez20&show_icons=true&hide_border=false&bg_color=0B1220&title_color=55B9F5&text_color=EAF0F7&icon_color=55B9F5&border_color=1E293B&count_private=true" alt="Samuel Gelvez GitHub Statistics" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Samuelgelvez20&layout=compact&hide_border=false&bg_color=0B1220&title_color=55B9F5&text_color=EAF0F7&border_color=1E293B" alt="Top Languages" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Samuelgelvez20&theme=tokyonight&hide_border=true&background=0F172A&ring=0284C7&fire=38BDF8&currStreakLabel=38BDF8" alt="Racha" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Samuelgelvez20&theme=tokyo-night&hide_border=true&bg_color=0F172A&color=38BDF8&line=0284C7&point=FFFFFF&area=true&area_color=0284C7" alt="Gráfico de contribuciones" width="100%" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samuelgelvez20/Samuelgelvez20/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Samuelgelvez20/Samuelgelvez20/output/github-snake.svg" />
-    <img alt="Contribuciones" src="https://raw.githubusercontent.com/Samuelgelvez20/Samuelgelvez20/output/github-snake-dark.svg" />
-  </picture>
+  <img src="https://streak-stats.demolab.com/?user=Samuelgelvez20&hide_border=false&background=0B1220&ring=55B9F5&fire=55B9F5&currStreakLabel=55B9F5&sideNums=EAF0F7&sideLabels=94A3B8&border=1E293B" alt="GitHub Contribution Streak" />
 </p>
 
 ---
 
-### Contacto
+### Connect
 
-Abierto a oportunidades como desarrollador backend. La forma más rápida de contactarme es por [LinkedIn](https://linkedin.com/in/samuelgelvezdev) o por [correo](mailto:samueldavidgelvezr@gmail.com).
+Open to software engineering and backend development opportunities. Feel free to reach out through any of the following channels:
+
+- GitHub: [Samuelgelvez20](https://github.com/Samuelgelvez20)
+- LinkedIn: [in/samuelgelvezdev](https://linkedin.com/in/samuelgelvezdev)
+- Email: [samueldavidgelvezr@gmail.com](mailto:samueldavidgelvezr@gmail.com)
+- Portfolio: [samuelgelvez20.github.io/PORTAFOLIO](https://samuelgelvez20.github.io/PORTAFOLIO/)
+
+<br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A5F,100:0284C7&height=100&section=footer" width="100%" alt="Footer" />
+  <em>Building reliable systems through architectural discipline, precision, and continuous learning.</em>
 </p>
