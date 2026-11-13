@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Samuelgelvez20"><img src="https://img.shields.io/badge/GitHub-Samuelgelvez20-0a0f1d?style=flat-square&logo=github&logoColor=38bdf8&labelColor=05070d" alt="GitHub Profile" /></a>
-  <a href="https://linkedin.com/in/samuelgelvezdev"><img src="https://img.shields.io/badge/LinkedIn-samuelgelvezdev-0a0f1d?style=flat-square&logo=linkedin&logoColor=38bdf8&labelColor=05070d" alt="LinkedIn Profile" /></a>
-  <a href="mailto:samueldavidgelvezr@gmail.com"><img src="https://img.shields.io/badge/Email-samueldavidgelvezr%40gmail.com-0a0f1d?style=flat-square&logo=gmail&logoColor=38bdf8&labelColor=05070d" alt="Email Contact" /></a>
-  <a href="https://samuelgelvez20.github.io/PORTAFOLIO/"><img src="https://img.shields.io/badge/Portfolio-Interactive_Showcase-0a0f1d?style=flat-square&logo=googlechrome&logoColor=38bdf8&labelColor=05070d" alt="Portfolio Website" /></a>
+  <a href="https://github.com/Samuelgelvez20"><img src="https://img.shields.io/badge/GITHUB-SAMUELGELVEZ20-1e3a5f?style=for-the-badge&logo=github&logoColor=38bdf8&labelColor=05070d" alt="GitHub Profile" /></a>
+  <a href="https://linkedin.com/in/samuelgelvezdev"><img src="https://img.shields.io/badge/LINKEDIN-CONECTAR-0284c7?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=05070d" alt="LinkedIn Profile" /></a>
+  <a href="mailto:samueldavidgelvezr@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACTAR-0ea5e9?style=for-the-badge&logo=gmail&logoColor=38bdf8&labelColor=05070d" alt="Email Contact" /></a>
+  <a href="https://samuelgelvez20.github.io/PORTAFOLIO/"><img src="https://img.shields.io/badge/PORTAFOLIO-EXPLORAR-0369a1?style=for-the-badge&logo=googlechrome&logoColor=38bdf8&labelColor=05070d" alt="Portfolio Website" /></a>
 </p>
 
 ---
@@ -166,14 +166,19 @@ Core Focus   : Concurrent PDF parsing, weighted algorithmic scoring, structured 
 
 ---
 
-### Connect
+### Contacto y Conexión
 
-Open to software engineering and backend architecture opportunities. Feel free to reach out through any of the following channels:
+Abierto a oportunidades en ingeniería de software, arquitectura backend y desarrollo de sistemas distribuidos:
 
-- **GitHub:** [Samuelgelvez20](https://github.com/Samuelgelvez20)
-- **LinkedIn:** [in/samuelgelvezdev](https://linkedin.com/in/samuelgelvezdev)
-- **Email:** [samueldavidgelvezr@gmail.com](mailto:samueldavidgelvezr@gmail.com)
-- **Portfolio:** [samuelgelvez20.github.io/PORTAFOLIO](https://samuelgelvez20.github.io/PORTAFOLIO/)
+<p align="left">
+  <a href="https://linkedin.com/in/samuelgelvezdev" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-CONECTAR_EN_RED-0284C7?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=05070d" alt="LinkedIn" /></a>
+  <br />
+  <a href="mailto:samueldavidgelvezr@gmail.com"><img src="https://img.shields.io/badge/EMAIL-samueldavidgelvezr%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=38bdf8&labelColor=05070d" alt="Email" /></a>
+  <br />
+  <a href="https://samuelgelvez20.github.io/PORTAFOLIO/" target="_blank"><img src="https://img.shields.io/badge/PORTAFOLIO-EXPLORAR_PROYECTOS-0369a1?style=for-the-badge&logo=googlechrome&logoColor=38bdf8&labelColor=05070d" alt="Portfolio" /></a>
+  <br />
+  <a href="https://github.com/Samuelgelvez20" target="_blank"><img src="https://img.shields.io/badge/GITHUB-SAMUELGELVEZ20-1e3a5f?style=for-the-badge&logo=github&logoColor=38bdf8&labelColor=05070d" alt="GitHub" /></a>
+</p>
 
 <br />
 
