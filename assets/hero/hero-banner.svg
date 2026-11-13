@@ -1,63 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="auto" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" width="100%" height="auto" fill="none">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B1220"/>
-      <stop offset="50%" stop-color="#0D172A"/>
-      <stop offset="100%" stop-color="#080E18"/>
+    <linearGradient id="blueprint-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#05070d"/>
+      <stop offset="100%" stop-color="#080d1a"/>
     </linearGradient>
 
-    <!-- Subtle Radial Glow -->
-    <radialGradient id="electric-glow" cx="80%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#55B9F5" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0B1220" stop-opacity="0"/>
+    <!-- Subtle Cyan Ambient Glow -->
+    <radialGradient id="cyan-glow" cx="85%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#162032" stroke-width="0.8" stroke-opacity="0.4"/>
+    <!-- Blueprint Grid Pattern -->
+    <pattern id="blueprint-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.5"/>
     </pattern>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="900" height="240" rx="14" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5"/>
-  <rect width="900" height="240" rx="14" fill="url(#grid)"/>
-  <rect width="900" height="240" rx="14" fill="url(#electric-glow)"/>
+  <!-- Container Base -->
+  <rect width="920" height="240" rx="16" fill="url(#blueprint-bg)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect width="920" height="240" rx="16" fill="url(#blueprint-grid)"/>
+  <rect width="920" height="240" rx="16" fill="url(#cyan-glow)"/>
 
-  <!-- Left Architectural Accent Line -->
-  <rect x="0" y="24" width="4" height="192" rx="2" fill="#55B9F5"/>
+  <!-- Left Architectural Accent Pillar -->
+  <rect x="0" y="28" width="4.5" height="184" rx="2" fill="#38bdf8"/>
 
-  <!-- Decorative Corner Crosshairs -->
-  <g stroke="#55B9F5" stroke-width="1" opacity="0.4">
-    <path d="M 35 25 L 45 25 M 40 20 L 40 30" />
-    <path d="M 855 25 L 865 25 M 860 20 L 860 30" />
-    <path d="M 35 215 L 45 215 M 40 210 L 40 220" />
-    <path d="M 855 215 L 865 215 M 860 210 L 860 220" />
+  <!-- Blueprint Corner Crosshairs '+' -->
+  <g stroke="#38bdf8" stroke-width="1.2" opacity="0.45">
+    <path d="M 28 20 L 36 20 M 32 16 L 32 24" />
+    <path d="M 884 20 L 892 20 M 888 16 L 888 24" />
+    <path d="M 28 220 L 36 220 M 32 216 L 32 224" />
+    <path d="M 884 220 L 892 220 M 888 216 L 888 224" />
   </g>
 
-  <!-- Content Group -->
-  <g transform="translate(60, 48)">
-    <!-- Subtitle / Meta Badge -->
-    <text x="0" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="11.5" font-weight="700" letter-spacing="2.5" fill="#55B9F5">
+  <!-- Content Elements -->
+  <g transform="translate(56, 44)">
+    <!-- Top Identity Pill -->
+    <rect x="0" y="0" width="186" height="24" rx="4" fill="#082f49" fill-opacity="0.8" stroke="#0369a1" stroke-width="1"/>
+    <text x="12" y="16" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="10.5" font-weight="700" letter-spacing="1.8" fill="#38bdf8">
       ENGINEERING IDENTITY
     </text>
 
     <!-- Full Name -->
-    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="32" font-weight="800" letter-spacing="0.5" fill="#EAF0F7">
+    <text x="0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5" fill="#ffffff">
       Samuel David Gélvez Rodríguez
     </text>
 
-    <!-- Professional Roles -->
-    <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="14.5" font-weight="600" letter-spacing="0.5" fill="#94A3B8">
-      Software Engineer <tspan fill="#55B9F5">|</tspan> Backend Developer <tspan fill="#55B9F5">|</tspan> Software Architecture
-    </text>
+    <!-- Professional Roles Bar -->
+    <g transform="translate(0, 96)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="15" font-weight="600">
+      <text x="0" y="0" fill="#ffffff">Software Engineer</text>
+      <text x="144" y="0" fill="#0ea5e9" font-weight="700">|</text>
+      <text x="160" y="0" fill="#38bdf8">Backend Developer</text>
+      <text x="312" y="0" fill="#0ea5e9" font-weight="700">|</text>
+      <text x="328" y="0" fill="#818cf8">Software Architecture</text>
+    </g>
 
-    <!-- Horizontal Divider -->
-    <line x1="0" y1="112" x2="780" y2="112" stroke="#1E293B" stroke-width="1" />
+    <!-- Subtle Divider Line -->
+    <line x1="0" y1="116" x2="800" y2="116" stroke="#1e293b" stroke-width="1"/>
 
-    <!-- Headline Motto -->
-    <text x="0" y="136" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13" font-weight="500" fill="#55B9F5">
-      &gt; Building reliable systems. Engineering meaningful solutions.
-    </text>
+    <!-- Terminal Command Line -->
+    <g transform="translate(0, 140)" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13">
+      <text x="0" y="0" fill="#0ea5e9" font-weight="700">&gt;</text>
+      <text x="16" y="0" fill="#94a3b8">Building reliable systems. <tspan fill="#38bdf8">Engineering meaningful solutions.</tspan></text>
+    </g>
   </g>
 </svg>
