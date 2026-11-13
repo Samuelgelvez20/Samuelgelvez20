@@ -1,57 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" viewBox="0 0 450 195" fill="none">
-  <rect width="450" height="195" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <g transform="translate(25, 22)">
-    <text x="0" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#38BDF8">
-      ⚡ Estadísticas de Ingeniería Backend
+  <rect width="450" height="195" rx="12" fill="#05070d" stroke="#1e293b" stroke-width="1.5"/>
+  <g transform="translate(24, 22)">
+    <!-- Header -->
+    <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="0.3">
+      Engineering Metrics &amp; Focus
     </text>
-    
+
+    <!-- Item 1: Core Ecosystem -->
     <g transform="translate(0, 36)">
-      <circle cx="8" cy="10" r="5" fill="#ED8B00"/>
-      <text x="24" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">
-        Ecosistema Principal:
+      <circle cx="6" cy="9" r="4.5" fill="#38bdf8"/>
+      <text x="22" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#94a3b8">
+        Primary Core:
       </text>
-      <text x="395" y="14" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38BDF8">
+      <text x="402" y="13" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">
         Java 21 &amp; Spring Boot
       </text>
     </g>
 
-    <g transform="translate(0, 62)">
-      <circle cx="8" cy="10" r="5" fill="#3776AB"/>
-      <text x="24" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">
-        Microservicios &amp; APIs:
+    <!-- Item 2: APIs & Microservices -->
+    <g transform="translate(0, 64)">
+      <circle cx="6" cy="9" r="4.5" fill="#0ea5e9"/>
+      <text x="22" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#94a3b8">
+        Microservices &amp; APIs:
       </text>
-      <text x="395" y="14" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38BDF8">
+      <text x="402" y="13" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">
         Python &amp; FastAPI
       </text>
     </g>
 
-    <g transform="translate(0, 88)">
-      <circle cx="8" cy="10" r="5" fill="#316192"/>
-      <text x="24" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">
-        Bases de Datos &amp; SQL:
+    <!-- Item 3: Databases & SQL -->
+    <g transform="translate(0, 92)">
+      <circle cx="6" cy="9" r="4.5" fill="#38bdf8"/>
+      <text x="22" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#94a3b8">
+        Databases &amp; Persistence:
       </text>
-      <text x="395" y="14" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38BDF8">
-        PostgreSQL 16 &amp; MySQL
+      <text x="402" y="13" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">
+        PostgreSQL &amp; MySQL
       </text>
     </g>
 
-    <g transform="translate(0, 114)">
-      <circle cx="8" cy="10" r="5" fill="#10B981"/>
-      <text x="24" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">
-        Arquitectura &amp; Patrones:
+    <!-- Item 4: Architecture -->
+    <g transform="translate(0, 120)">
+      <circle cx="6" cy="9" r="4.5" fill="#10b981"/>
+      <text x="22" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#94a3b8">
+        Architecture &amp; Patterns:
       </text>
-      <text x="395" y="14" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#10B981">
+      <text x="402" y="13" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#10b981">
         Hexagonal / DDD / SOLID
       </text>
     </g>
 
-    <g transform="translate(0, 140)">
-      <circle cx="8" cy="10" r="5" fill="#A855F7"/>
-      <text x="24" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0">
-        Releases Oficiales:
+    <!-- Item 5: Production Repos -->
+    <g transform="translate(0, 148)">
+      <circle cx="6" cy="9" r="4.5" fill="#818cf8"/>
+      <text x="22" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#94a3b8">
+        Production Workloads:
       </text>
-      <text x="395" y="14" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#A855F7">
-        8 Repositorios (v1.0.0)
+      <text x="402" y="13" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#818cf8">
+        Docker &amp; Linux
       </text>
     </g>
   </g>

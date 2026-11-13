@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/KERNEL-DDD__ENGINE_%2F%2F_OPERATIONAL-05070d?style=flat-square&logo=linux&logoColor=10b981&labelColor=05070d" alt="Kernel Status" />
-  <img src="https://img.shields.io/badge/LATENCY-14ms-05070d?style=flat-square&logo=speedtest&logoColor=f59e0b&labelColor=05070d" alt="Latency" />
-  <img src="https://img.shields.io/badge/ARCHITECTURE-HEXAGONAL_%26_DDD-05070d?style=flat-square&logo=diagram-next&logoColor=38bdf8&labelColor=05070d" alt="Architecture" />
-</p>
-
 <div align="center">
   <img src="assets/hero/hero-banner.svg" alt="Samuel David Gelvez Rodriguez - Software Engineer" width="100%" />
 </div>
@@ -162,8 +156,8 @@ Core Focus   : Concurrent PDF parsing, weighted algorithmic scoring, structured 
 ### GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Samuelgelvez20&show_icons=true&hide_border=false&bg_color=05070d&title_color=38bdf8&text_color=e2e8f0&icon_color=38bdf8&border_color=1e293b&count_private=true" alt="Samuel Gelvez GitHub Statistics" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Samuelgelvez20&layout=compact&hide_border=false&bg_color=05070d&title_color=38bdf8&text_color=e2e8f0&border_color=1e293b" alt="Top Languages" height="165" />
+  <img src="assets/stats.svg" alt="Engineering Metrics & Focus" />
+  <img src="assets/languages.svg" alt="Technology Stack Distribution" />
 </p>
 
 <p align="center">
